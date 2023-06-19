@@ -83,10 +83,14 @@
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
    .bg-image {
-    height:fit-content;
+    height:100rem;
   }
   .side-card , .card{
     margin-bottom: 4rem;
     height:50rem ;
+  }
+  .contact{
+    margin-top: 0rem!important;
+    padding: 0rem;
   }
 }
