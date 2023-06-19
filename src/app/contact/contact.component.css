@@ -80,3 +80,13 @@
   display: grid;
   /* flex-direction: row; */
 }
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  /* .bg-image {
+    height:800px;
+  } */
+  .side-card , .card{
+    margin-bottom: 4rem;
+    height:50rem ;
+  }
+}
