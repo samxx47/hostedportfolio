@@ -88,6 +88,7 @@
   .side-card , .card{
     margin-bottom: 4rem;
     height:30rem!important ;
+    margin-top: -5rem!important;
   }
   .contact{
     margin-top: 0rem!important;
