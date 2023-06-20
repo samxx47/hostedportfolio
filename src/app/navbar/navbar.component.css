@@ -2,7 +2,9 @@
   border-radius: 50% !important;
   margin-top: -5rem;
   margin-left: 2rem;
+  width: 13rem!important;
 }
+
 
 @media (min-width: 992px){
 .navbar-expand-lg .navbar-collapse {
