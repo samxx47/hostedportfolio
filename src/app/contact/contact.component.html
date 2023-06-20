@@ -13,26 +13,38 @@ background-repeat: no-repeat;
 </div> -->
 
   <div class="col-lg-8 mt-5 p-5 contact">
-    <form>
+    <form action="mailto:mistershivamxx47@gmail.com"  method="POST" encType="multipart/form-data">
       <div class="form-group ">
         <label for="exampleInputEmail1" class="form-label mt-4 header-subtitle" >Email address</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        <input type="email" name="_replyto" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small><br>
         <label for="exampleTextarea" class="form-label mt-4">Enter Message</label>
-        <textarea class="form-control" id="exampleTextarea" rows="3" spellcheck="false" placeholder="Message *"></textarea>
-        <button type="submit" class="btn btn-primary mt-2">Submit</button>
+        <textarea class="form-control" name="message" id="exampleTextarea" rows="3" spellcheck="false" placeholder="Message *"></textarea>
+        <button type="submit" class="btn btn-primary mt-5" value="Send">Submit</button>
       </div>
       </form>
   </div>
   <div class="col-lg-4 mt-5 p-5 side-card">
 
     <div class="card text-white bg-dark mb-3" style="min-width: 30rem;min-height: 30rem;">
-      <div class="card-header">Header</div>
       <div class="card-body">
-        <h4 class="card-title">Dark card title</h4>
+        <div class="card-header">Reach Out </div>
+      <div class="row p-5">
+        <div class="col-4"><i class="fa fa-facebook"></i></div>
+        <div class="col-4"><i class="fa fa-instagram"></i></div>
+        <div class="col-4"><i class="fa fa-whatsapp"></i></div>
+      </div>
+      <div class="row p-3">
+        <div class="col-6"><i class="fa fa-linkedin"></i></div>
+        <div class="col-6"><i class="fa fa-github"></i></div>
+      </div>
+
+      </div>
+      <!-- <div class="card-body">
+        <h4 class="card-title"><i class="fa fa-facebook"></i>Dark card title</h4>
         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
       </div>
-      </div>
+      </div> -->
 
   </div>
 
