@@ -2,3 +2,6 @@ ul
 {
   list-style-type: none;
 }
+i{
+  padding-right: 1rem;
+}

@@ -12,6 +12,7 @@
         <a href="#" class="fa fa-instagram"></a>
         <a href="#" class="fa fa-github-alt"></a>
         <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-youtube"></a>
       </div>
 
       <div class="d-flex justify-content-center align-items-center h-100">
@@ -25,7 +26,7 @@
           <h4 class="header-subtitle" >Hello, I am</h4>
           <h1 class="header-title">Shivam Sharma</h1>
           <h6 class="header-mono" >Software Engineer | Developer</h6>
-          <button class="btn btn-primary btn-outline-danger btn-rounded"><i class="ti-printer pr-2"></i>Print Resume</button>
+          <a class="btn btn-primary btn-outline-danger btn-rounded" role="button" download="ShivamSharmaResumeSitefinityV3.docs" href="https://res.cloudinary.com/dlxuus1lc/raw/upload/v1687344790/Shivam_Sharma_ResumeSitefinityV3_t57jhv.docx"><i class="ti-printer pr-2"></i>Print Resume</a>
       </div>
       </div>
 
@@ -33,3 +34,22 @@
   </div>
   <!-- Background image -->
 
+  <!-- <script>
+    function download(){
+        axios({
+            url:'https://github.com/samxx47/hostedportfolio/blob/master/src/assets/Shivam%20Sharma%20ResumeSitefinityV3.docx',
+            method:'GET',
+            responseType: 'blob'
+    })
+    .then((response) => {
+           const url = window.URL
+           .createObjectURL(new Blob([response.data]));
+                  const link = document.createElement('a');
+                  link.href = url;
+                  link.setAttribute('download', 'image.jpg');
+                  document.body.appendChild(link);
+                  link.click();
+    })
+    }
+
+ </script> -->
