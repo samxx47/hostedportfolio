@@ -44,3 +44,10 @@ img {
     -webkit-filter: grayscale(0);
     -webkit-transform: scale(1.05);
   }
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    img{
+    height: auto;
+
+   }
+  }
