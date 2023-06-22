@@ -50,4 +50,8 @@ img {
     height: auto;
 
    }
+   .mobileapp{
+    height: auto;
+    width: 30rem!important;
+   }
   }
